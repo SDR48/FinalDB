@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FinalDB</string>
+    <string name="username_log">Username</string>
+    <string name="pass_log">Password</string>
+    <string name="button_log">LOGIN</string>
+    <string name="new_user_sign_up">New User? Sign up</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="contact">Contact</string>
+    <string name="submit">Submit</string>
+    <string name="pass_hint">Password</string>
+    <string name="already_a_user_login">Already a User? Login</string>
+    <string name="email">Email</string>
+    <string name="logout">LOGOUT</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="reset">RESET</string>
+</resources>

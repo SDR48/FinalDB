@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginAct">
+
+
+    <EditText
+        android:id="@+id/logname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/username_log" />
+
+    <EditText
+        android:id="@+id/logpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/logname"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="129dp"
+        android:ems="10"
+        android:hint="@string/pass_log"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/loginbut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="205dp"
+        android:text="@string/button_log" />
+
+    <TextView
+        android:id="@+id/gotoreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/logname"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="119dp"
+        android:clickable="true"
+        android:text="@string/new_user_sign_up"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/fgtpw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="196dp"
+        android:clickable="true"
+        android:text="@string/forgot_password" />
+</RelativeLayout>
